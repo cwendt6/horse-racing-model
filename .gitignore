@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.claude/
+CLAUDE.md
+# Licensed data: never commit
+*.pdf
+*.zip
+*.xml
+/data/
+/output/
+/predictions/
+*.log
