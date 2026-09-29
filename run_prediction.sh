@@ -34,11 +34,7 @@ else
     echo "Mode: All Races"
 fi
 echo ""
-echo "Model Stats:"
-echo "  - Win Rate: 7.0% (4/57 races)"
-echo "  - High-Confidence ROI: +381.8%"
-echo "  - Form weight: 0.225 (highest)"
-echo "  - Class weight: 0.215 (second)"
+echo "Backtest results and their limits (small samples, overfitting): see README.md"
 echo ""
 echo "----------------------------------------"
 
@@ -51,8 +47,3 @@ fi
 
 echo ""
 echo "✅ Prediction complete!"
-echo ""
-echo "Tips:"
-echo "  - High confidence picks (>25% probability) have 100% win rate"
-echo "  - Focus on SPEED_DUEL races (50% win rate)"
-echo "  - Pressers with >30% probability: 46.7% win rate"

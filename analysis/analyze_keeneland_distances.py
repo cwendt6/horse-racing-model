@@ -7,7 +7,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 import os
 import glob
 from collections import Counter
-from src.parsers.tch_parser import parse_tch_file
+from src.parsers.tch_xml_parser import parse_tch_file
 
 print("=" * 80)
 print("KEENELAND DISTANCE ANALYSIS")

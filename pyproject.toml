@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+# Most files in tests/ are data-dependent debug scripts that run at import time.
+# Only these files are real pytest tests; add new tests here.
+python_files = ["test_imports.py", "test_jockey_trainer.py"]
