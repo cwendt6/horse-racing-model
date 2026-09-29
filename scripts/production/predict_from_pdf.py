@@ -3,11 +3,12 @@ Predict Race from PDF Past Performances
 Uses PDF parser to extract data and runs prediction model with optimized weights
 """
 
+import os
 import sys
+
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
 import json
-import os
 from datetime import datetime
 
 # Import PDF parser (using Hybrid Parser V3 for best quality)

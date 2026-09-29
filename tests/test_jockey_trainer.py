@@ -2,7 +2,16 @@
 Test script for jockey-trainer analyzer
 """
 
+import pytest
+
 from src.analyzers.jockey_trainer_analyzer import JockeyTrainerAnalyzer, seed_initial_data
+
+
+@pytest.fixture(autouse=True)
+def seeded_stats(tmp_path, monkeypatch):
+    """Run each test in a temp dir with seeded combos, so nothing touches data/."""
+    monkeypatch.chdir(tmp_path)
+    seed_initial_data()
 
 
 def test_basic_functionality():

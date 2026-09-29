@@ -3,7 +3,7 @@ Pace Analyzer Integration Guide
 How to connect the PDF parser with the pace analyzer
 """
 
-from pace_analyzer import (
+from src.analyzers.pace_analyzer import (
     PaceAnalyzer, PaceFigureCalculator,
     PastPerformance, FractionalTime, PositionCall,
     RunningStyle

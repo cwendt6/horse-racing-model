@@ -4,7 +4,7 @@ Generates professional, statistically rigorous race reports
 """
 
 from typing import List, Dict, Tuple
-import racing_statistics as stats
+from src.analyzers import racing_statistics as stats
 import numpy as np
 
 
