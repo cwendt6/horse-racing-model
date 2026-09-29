@@ -114,6 +114,11 @@ def calculate_expected_value(win_probability, ml_odds, bet_amount=2.0):
     return ev_percentage, ev_dollars
 
 
+PRODUCTION_WEIGHTS = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), '..', '..', 'config', 'weights_jockey_enhanced.json'
+)
+
+
 def load_optimized_weights(surface='dirt', race_type='', race_class=''):
     """
     Load optimized weights for the specified surface and race type.
@@ -129,18 +134,9 @@ def load_optimized_weights(surface='dirt', race_type='', race_class=''):
         print(f"   Trainer weight: {maiden_weights['trainer']:.1%} (vs standard 18.22%)")
         return maiden_weights
 
-    # Non-maiden races: try surface-specific weights first
-    weight_files = {
-        'dirt': 'output/dirt_optimized_weights.json',
-        'turf': 'output/turf_optimized_weights.json',
-        'default': 'output/optimized_weights_2023_full.json'
-    }
-
-    weight_file = weight_files.get(surface.lower(), weight_files['default'])
-
-    # Fall back to default if surface-specific doesn't exist
-    if not os.path.exists(weight_file):
-        weight_file = weight_files['default']
+    # Non-maiden races: production weights, optimized on the full 2023 Keeneland set.
+    # (Surface-specific dirt/turf weight files were planned but never produced.)
+    weight_file = PRODUCTION_WEIGHTS
 
     try:
         with open(weight_file, 'r') as f:
