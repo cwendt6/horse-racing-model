@@ -11,8 +11,15 @@ Calibration Data:
 """
 
 import json
+import os
 from pathlib import Path
 from typing import Dict, Tuple, Optional
+
+
+# Score and rank calibration from the October 2025 Keeneland backtest (aggregates only).
+DEFAULT_CALIBRATION = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), '..', '..', 'config', 'probability_calibration.json'
+)
 
 
 class ProbabilityCalibrator:
@@ -30,10 +37,10 @@ class ProbabilityCalibrator:
 
         Args:
             calibration_file: Path to JSON file with calibration data
-                            Defaults to output/probability_calibration.json
+                            Defaults to config/probability_calibration.json
         """
         if calibration_file is None:
-            calibration_file = 'output/probability_calibration.json'
+            calibration_file = DEFAULT_CALIBRATION
 
         self.calibration_data = self._load_calibration_data(calibration_file)
 

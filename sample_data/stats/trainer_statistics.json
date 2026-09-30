@@ -1,0 +1,44 @@
+{
+  "trainers": [
+    {
+      "name": "Ellis Thorne",
+      "all_time_all_tracks": {
+        "starts": 292,
+        "wins": 32,
+        "win_percentage": 11.0,
+        "itm_percentage": 44.5,
+        "earnings": 1752000.0
+      }
+    },
+    {
+      "name": "Idris Vane",
+      "all_time_all_tracks": {
+        "starts": 187,
+        "wins": 26,
+        "win_percentage": 13.9,
+        "itm_percentage": 32.1,
+        "earnings": 561000.0
+      }
+    },
+    {
+      "name": "Mara Quill",
+      "all_time_all_tracks": {
+        "starts": 560,
+        "wins": 76,
+        "win_percentage": 13.6,
+        "itm_percentage": 43.0,
+        "earnings": 2240000.0
+      }
+    },
+    {
+      "name": "Ruth Calder",
+      "all_time_all_tracks": {
+        "starts": 184,
+        "wins": 25,
+        "win_percentage": 13.6,
+        "itm_percentage": 34.2,
+        "earnings": 552000.0
+      }
+    }
+  ]
+}

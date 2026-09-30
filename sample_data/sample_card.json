@@ -1,0 +1,973 @@
+{
+  "note": "Synthetic demo card. All names and figures are invented.",
+  "races": [
+    {
+      "track_code": "SMP",
+      "track_name": "Sample Downs",
+      "date": "2026-10-10",
+      "race_number": 1,
+      "distance": 600,
+      "distance_text": "6 Furlongs",
+      "surface": "D",
+      "surface_description": "Dirt",
+      "track_condition": "FT",
+      "race_type": "ALW",
+      "race_type_description": "Allowance",
+      "purse": 80000.0,
+      "horses": [
+        {
+          "program_number": "1",
+          "name": "Paper Lantern",
+          "jockey_name": "Rowan Hale",
+          "trainer_name": "Mara Quill",
+          "morning_line_odds": "5-2",
+          "weight": 122,
+          "age": 5,
+          "sex": "C",
+          "best_speed_figure": 92,
+          "last_speed_figure": 88,
+          "avg_speed_figure": 90,
+          "career_starts": 7,
+          "career_wins": 1,
+          "career_seconds": 3,
+          "career_thirds": 2,
+          "career_earnings": 176000.0,
+          "days_since_last_race": 31,
+          "last_race_date": "2026-09-09",
+          "last_race_finish": 2,
+          "sire_name": "Lantern Bay",
+          "dam_name": "",
+          "running_style": "E",
+          "style_confidence": 0.7,
+          "past_performances": [
+            {
+              "date": "2026-09-09",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.99,
+                46.08,
+                71.45
+              ],
+              "early": [
+                4,
+                1
+              ],
+              "first_call": 1,
+              "second_call": 1,
+              "stretch": 1,
+              "finish": 2,
+              "finish_position": 2,
+              "final_time": 71.45,
+              "speed_figure": 88
+            },
+            {
+              "date": "2026-08-06",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.29,
+                45.84,
+                70.43
+              ],
+              "early": [
+                2,
+                1
+              ],
+              "first_call": 1,
+              "second_call": 1,
+              "stretch": 4,
+              "finish": 3,
+              "finish_position": 3,
+              "final_time": 70.43,
+              "speed_figure": 92
+            },
+            {
+              "date": "2026-06-28",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                23.17,
+                46.22,
+                72.01
+              ],
+              "early": [
+                5,
+                1
+              ],
+              "first_call": 1,
+              "second_call": 1,
+              "stretch": 1,
+              "finish": 1,
+              "finish_position": 1,
+              "final_time": 72.01,
+              "speed_figure": 90
+            },
+            {
+              "date": "2026-06-04",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.67,
+                46.35,
+                71.0
+              ],
+              "early": [
+                4,
+                2
+              ],
+              "first_call": 2,
+              "second_call": 2,
+              "stretch": 1,
+              "finish": 2,
+              "finish_position": 2,
+              "final_time": 71.0,
+              "speed_figure": 90
+            }
+          ],
+          "today_equipment": {
+            "blinkers": false,
+            "lasix": true
+          }
+        },
+        {
+          "program_number": "2",
+          "name": "Quiet Ledger",
+          "jockey_name": "Tess Ormond",
+          "trainer_name": "Idris Vane",
+          "morning_line_odds": "6-1",
+          "weight": 122,
+          "age": 5,
+          "sex": "H",
+          "best_speed_figure": 86,
+          "last_speed_figure": 80,
+          "avg_speed_figure": 82,
+          "career_starts": 7,
+          "career_wins": 1,
+          "career_seconds": 2,
+          "career_thirds": 2,
+          "career_earnings": 154000.0,
+          "days_since_last_race": 31,
+          "last_race_date": "2026-09-09",
+          "last_race_finish": 3,
+          "sire_name": "Double Entry",
+          "dam_name": "",
+          "running_style": "P",
+          "style_confidence": 0.7,
+          "past_performances": [
+            {
+              "date": "2026-09-09",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.36,
+                46.15,
+                71.7
+              ],
+              "early": [
+                4,
+                3
+              ],
+              "first_call": 3,
+              "second_call": 2,
+              "stretch": 4,
+              "finish": 3,
+              "finish_position": 3,
+              "final_time": 71.7,
+              "speed_figure": 80
+            },
+            {
+              "date": "2026-08-03",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                23.05,
+                46.78,
+                71.71
+              ],
+              "early": [
+                2,
+                3
+              ],
+              "first_call": 3,
+              "second_call": 2,
+              "stretch": 4,
+              "finish": 3,
+              "finish_position": 3,
+              "final_time": 71.71,
+              "speed_figure": 82
+            },
+            {
+              "date": "2026-07-08",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.05,
+                45.72,
+                71.37
+              ],
+              "early": [
+                6,
+                3
+              ],
+              "first_call": 3,
+              "second_call": 3,
+              "stretch": 6,
+              "finish": 5,
+              "finish_position": 5,
+              "final_time": 71.37,
+              "speed_figure": 81
+            },
+            {
+              "date": "2026-05-29",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.7,
+                46.16,
+                71.92
+              ],
+              "early": [
+                5,
+                3
+              ],
+              "first_call": 3,
+              "second_call": 3,
+              "stretch": 6,
+              "finish": 5,
+              "finish_position": 5,
+              "final_time": 71.92,
+              "speed_figure": 86
+            }
+          ],
+          "today_equipment": {
+            "blinkers": true,
+            "lasix": true
+          }
+        },
+        {
+          "program_number": "3",
+          "name": "Copper Mile",
+          "jockey_name": "Jude Farrow",
+          "trainer_name": "Mara Quill",
+          "morning_line_odds": "4-1",
+          "weight": 122,
+          "age": 5,
+          "sex": "H",
+          "best_speed_figure": 86,
+          "last_speed_figure": 83,
+          "avg_speed_figure": 84,
+          "career_starts": 14,
+          "career_wins": 3,
+          "career_seconds": 5,
+          "career_thirds": 0,
+          "career_earnings": 171000.0,
+          "days_since_last_race": 33,
+          "last_race_date": "2026-09-07",
+          "last_race_finish": 5,
+          "sire_name": "Iron Furlong",
+          "dam_name": "",
+          "running_style": "E",
+          "style_confidence": 0.7,
+          "past_performances": [
+            {
+              "date": "2026-09-07",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.2,
+                45.32,
+                69.91
+              ],
+              "early": [
+                5,
+                2
+              ],
+              "first_call": 2,
+              "second_call": 1,
+              "stretch": 6,
+              "finish": 5,
+              "finish_position": 5,
+              "final_time": 69.91,
+              "speed_figure": 83
+            },
+            {
+              "date": "2026-08-05",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                23.1,
+                46.6,
+                71.35
+              ],
+              "early": [
+                7,
+                2
+              ],
+              "first_call": 2,
+              "second_call": 3,
+              "stretch": 3,
+              "finish": 3,
+              "finish_position": 3,
+              "final_time": 71.35,
+              "speed_figure": 82
+            },
+            {
+              "date": "2026-07-02",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.82,
+                46.2,
+                71.05
+              ],
+              "early": [
+                2,
+                2
+              ],
+              "first_call": 2,
+              "second_call": 1,
+              "stretch": 1,
+              "finish": 2,
+              "finish_position": 2,
+              "final_time": 71.05,
+              "speed_figure": 83
+            },
+            {
+              "date": "2026-05-21",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.01,
+                45.84,
+                70.61
+              ],
+              "early": [
+                5,
+                1
+              ],
+              "first_call": 1,
+              "second_call": 1,
+              "stretch": 1,
+              "finish": 1,
+              "finish_position": 1,
+              "final_time": 70.61,
+              "speed_figure": 86
+            }
+          ],
+          "today_equipment": {
+            "blinkers": false,
+            "lasix": true
+          }
+        },
+        {
+          "program_number": "4",
+          "name": "Late Harvest",
+          "jockey_name": "Nico Brandt",
+          "trainer_name": "Ellis Thorne",
+          "morning_line_odds": "8-1",
+          "weight": 122,
+          "age": 3,
+          "sex": "C",
+          "best_speed_figure": 83,
+          "last_speed_figure": 75,
+          "avg_speed_figure": 79,
+          "career_starts": 13,
+          "career_wins": 3,
+          "career_seconds": 1,
+          "career_thirds": 2,
+          "career_earnings": 127000.0,
+          "days_since_last_race": 41,
+          "last_race_date": "2026-08-30",
+          "last_race_finish": 2,
+          "sire_name": "Autumn Rain",
+          "dam_name": "",
+          "running_style": "C",
+          "style_confidence": 0.7,
+          "past_performances": [
+            {
+              "date": "2026-08-30",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                23.14,
+                46.82,
+                72.16
+              ],
+              "early": [
+                7,
+                7
+              ],
+              "first_call": 7,
+              "second_call": 7,
+              "stretch": 2,
+              "finish": 2,
+              "finish_position": 2,
+              "final_time": 72.16,
+              "speed_figure": 75
+            },
+            {
+              "date": "2026-07-25",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.07,
+                45.14,
+                69.95
+              ],
+              "early": [
+                3,
+                8
+              ],
+              "first_call": 8,
+              "second_call": 7,
+              "stretch": 5,
+              "finish": 5,
+              "finish_position": 5,
+              "final_time": 69.95,
+              "speed_figure": 83
+            },
+            {
+              "date": "2026-07-03",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.12,
+                45.48,
+                70.02
+              ],
+              "early": [
+                4,
+                7
+              ],
+              "first_call": 7,
+              "second_call": 8,
+              "stretch": 5,
+              "finish": 5,
+              "finish_position": 5,
+              "final_time": 70.02,
+              "speed_figure": 76
+            },
+            {
+              "date": "2026-05-23",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                23.15,
+                46.75,
+                71.96
+              ],
+              "early": [
+                2,
+                8
+              ],
+              "first_call": 8,
+              "second_call": 8,
+              "stretch": 5,
+              "finish": 5,
+              "finish_position": 5,
+              "final_time": 71.96,
+              "speed_figure": 81
+            }
+          ],
+          "today_equipment": {
+            "blinkers": false,
+            "lasix": true
+          }
+        },
+        {
+          "program_number": "5",
+          "name": "Signal Fire",
+          "jockey_name": "Ada Kestrel",
+          "trainer_name": "Ruth Calder",
+          "morning_line_odds": "3-1",
+          "weight": 122,
+          "age": 5,
+          "sex": "G",
+          "best_speed_figure": 94,
+          "last_speed_figure": 94,
+          "avg_speed_figure": 90,
+          "career_starts": 11,
+          "career_wins": 2,
+          "career_seconds": 5,
+          "career_thirds": 0,
+          "career_earnings": 96000.0,
+          "days_since_last_race": 36,
+          "last_race_date": "2026-09-04",
+          "last_race_finish": 1,
+          "sire_name": "Beacon Hill",
+          "dam_name": "",
+          "running_style": "P",
+          "style_confidence": 0.7,
+          "past_performances": [
+            {
+              "date": "2026-09-04",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                23.14,
+                46.5,
+                72.04
+              ],
+              "early": [
+                1,
+                2
+              ],
+              "first_call": 2,
+              "second_call": 3,
+              "stretch": 1,
+              "finish": 1,
+              "finish_position": 1,
+              "final_time": 72.04,
+              "speed_figure": 94
+            },
+            {
+              "date": "2026-08-12",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.62,
+                46.53,
+                71.56
+              ],
+              "early": [
+                4,
+                3
+              ],
+              "first_call": 3,
+              "second_call": 4,
+              "stretch": 3,
+              "finish": 2,
+              "finish_position": 2,
+              "final_time": 71.56,
+              "speed_figure": 92
+            },
+            {
+              "date": "2026-07-12",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.91,
+                46.11,
+                70.97
+              ],
+              "early": [
+                7,
+                2
+              ],
+              "first_call": 2,
+              "second_call": 3,
+              "stretch": 1,
+              "finish": 1,
+              "finish_position": 1,
+              "final_time": 70.97,
+              "speed_figure": 87
+            },
+            {
+              "date": "2026-06-05",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.43,
+                45.46,
+                70.0
+              ],
+              "early": [
+                5,
+                3
+              ],
+              "first_call": 3,
+              "second_call": 3,
+              "stretch": 1,
+              "finish": 1,
+              "finish_position": 1,
+              "final_time": 70.0,
+              "speed_figure": 87
+            }
+          ],
+          "today_equipment": {
+            "blinkers": true,
+            "lasix": true
+          }
+        },
+        {
+          "program_number": "6",
+          "name": "Blue Ribbon Kid",
+          "jockey_name": "Cyrus Pell",
+          "trainer_name": "Idris Vane",
+          "morning_line_odds": "12-1",
+          "weight": 122,
+          "age": 3,
+          "sex": "H",
+          "best_speed_figure": 80,
+          "last_speed_figure": 80,
+          "avg_speed_figure": 78,
+          "career_starts": 8,
+          "career_wins": 1,
+          "career_seconds": 1,
+          "career_thirds": 2,
+          "career_earnings": 75000.0,
+          "days_since_last_race": 36,
+          "last_race_date": "2026-09-04",
+          "last_race_finish": 5,
+          "sire_name": "Prize Day",
+          "dam_name": "",
+          "running_style": "S",
+          "style_confidence": 0.7,
+          "past_performances": [
+            {
+              "date": "2026-09-04",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                23.18,
+                46.79,
+                71.29
+              ],
+              "early": [
+                6,
+                4
+              ],
+              "first_call": 4,
+              "second_call": 5,
+              "stretch": 4,
+              "finish": 5,
+              "finish_position": 5,
+              "final_time": 71.29,
+              "speed_figure": 80
+            },
+            {
+              "date": "2026-08-11",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.94,
+                46.69,
+                71.91
+              ],
+              "early": [
+                3,
+                5
+              ],
+              "first_call": 5,
+              "second_call": 5,
+              "stretch": 8,
+              "finish": 7,
+              "finish_position": 7,
+              "final_time": 71.91,
+              "speed_figure": 75
+            },
+            {
+              "date": "2026-07-19",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.1,
+                45.26,
+                71.25
+              ],
+              "early": [
+                1,
+                5
+              ],
+              "first_call": 5,
+              "second_call": 4,
+              "stretch": 4,
+              "finish": 3,
+              "finish_position": 3,
+              "final_time": 71.25,
+              "speed_figure": 77
+            },
+            {
+              "date": "2026-06-08",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.73,
+                46.33,
+                71.54
+              ],
+              "early": [
+                6,
+                4
+              ],
+              "first_call": 4,
+              "second_call": 3,
+              "stretch": 7,
+              "finish": 6,
+              "finish_position": 6,
+              "final_time": 71.54,
+              "speed_figure": 78
+            }
+          ],
+          "today_equipment": {
+            "blinkers": false,
+            "lasix": true
+          }
+        },
+        {
+          "program_number": "7",
+          "name": "Northbound",
+          "jockey_name": "Lena Voss",
+          "trainer_name": "Ellis Thorne",
+          "morning_line_odds": "10-1",
+          "weight": 122,
+          "age": 5,
+          "sex": "C",
+          "best_speed_figure": 78,
+          "last_speed_figure": 78,
+          "avg_speed_figure": 76,
+          "career_starts": 7,
+          "career_wins": 2,
+          "career_seconds": 0,
+          "career_thirds": 1,
+          "career_earnings": 123000.0,
+          "days_since_last_race": 27,
+          "last_race_date": "2026-09-13",
+          "last_race_finish": 6,
+          "sire_name": "Compass Rose",
+          "dam_name": "",
+          "running_style": "C",
+          "style_confidence": 0.7,
+          "past_performances": [
+            {
+              "date": "2026-09-13",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.6,
+                46.36,
+                71.35
+              ],
+              "early": [
+                7,
+                7
+              ],
+              "first_call": 7,
+              "second_call": 6,
+              "stretch": 5,
+              "finish": 6,
+              "finish_position": 6,
+              "final_time": 71.35,
+              "speed_figure": 78
+            },
+            {
+              "date": "2026-08-09",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.99,
+                46.87,
+                71.57
+              ],
+              "early": [
+                3,
+                8
+              ],
+              "first_call": 8,
+              "second_call": 9,
+              "stretch": 6,
+              "finish": 5,
+              "finish_position": 5,
+              "final_time": 71.57,
+              "speed_figure": 73
+            },
+            {
+              "date": "2026-07-05",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.18,
+                45.32,
+                70.75
+              ],
+              "early": [
+                2,
+                7
+              ],
+              "first_call": 7,
+              "second_call": 8,
+              "stretch": 2,
+              "finish": 3,
+              "finish_position": 3,
+              "final_time": 70.75,
+              "speed_figure": 78
+            },
+            {
+              "date": "2026-05-24",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.94,
+                46.05,
+                71.39
+              ],
+              "early": [
+                4,
+                8
+              ],
+              "first_call": 8,
+              "second_call": 7,
+              "stretch": 3,
+              "finish": 3,
+              "finish_position": 3,
+              "final_time": 71.39,
+              "speed_figure": 73
+            }
+          ],
+          "today_equipment": {
+            "blinkers": false,
+            "lasix": true
+          }
+        },
+        {
+          "program_number": "8",
+          "name": "Sandpiper Run",
+          "jockey_name": "Omar Reyes",
+          "trainer_name": "Ruth Calder",
+          "morning_line_odds": "15-1",
+          "weight": 122,
+          "age": 4,
+          "sex": "G",
+          "best_speed_figure": 75,
+          "last_speed_figure": 75,
+          "avg_speed_figure": 74,
+          "career_starts": 14,
+          "career_wins": 4,
+          "career_seconds": 3,
+          "career_thirds": 1,
+          "career_earnings": 121000.0,
+          "days_since_last_race": 37,
+          "last_race_date": "2026-09-03",
+          "last_race_finish": 5,
+          "sire_name": "Shoreline",
+          "dam_name": "",
+          "running_style": "S",
+          "style_confidence": 0.7,
+          "past_performances": [
+            {
+              "date": "2026-09-03",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.64,
+                46.12,
+                72.03
+              ],
+              "early": [
+                5,
+                4
+              ],
+              "first_call": 4,
+              "second_call": 5,
+              "stretch": 4,
+              "finish": 5,
+              "finish_position": 5,
+              "final_time": 72.03,
+              "speed_figure": 75
+            },
+            {
+              "date": "2026-08-09",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.15,
+                45.59,
+                70.2
+              ],
+              "early": [
+                4,
+                5
+              ],
+              "first_call": 5,
+              "second_call": 5,
+              "stretch": 3,
+              "finish": 4,
+              "finish_position": 4,
+              "final_time": 70.2,
+              "speed_figure": 71
+            },
+            {
+              "date": "2026-06-28",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.19,
+                45.91,
+                71.4
+              ],
+              "early": [
+                3,
+                5
+              ],
+              "first_call": 5,
+              "second_call": 5,
+              "stretch": 6,
+              "finish": 7,
+              "finish_position": 7,
+              "final_time": 71.4,
+              "speed_figure": 75
+            },
+            {
+              "date": "2026-05-31",
+              "track": "SMP",
+              "distance": "6f",
+              "surface": "Dirt",
+              "fractional_times": [
+                22.48,
+                45.97,
+                71.95
+              ],
+              "early": [
+                4,
+                4
+              ],
+              "first_call": 4,
+              "second_call": 3,
+              "stretch": 4,
+              "finish": 3,
+              "finish_position": 3,
+              "final_time": 71.95,
+              "speed_figure": 74
+            }
+          ],
+          "today_equipment": {
+            "blinkers": true,
+            "lasix": true
+          }
+        }
+      ]
+    }
+  ]
+}

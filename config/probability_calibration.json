@@ -1,0 +1,130 @@
+{
+  "score_calibration": {
+    "Good (75-80)": {
+      "score_range": [
+        75,
+        80
+      ],
+      "count": 24,
+      "wins": 6,
+      "win_rate": 0.25,
+      "implied_probability": 0.25,
+      "fair_odds": 3.0
+    },
+    "Above Average (70-75)": {
+      "score_range": [
+        70,
+        75
+      ],
+      "count": 118,
+      "wins": 15,
+      "win_rate": 0.1271186440677966,
+      "implied_probability": 0.1271186440677966,
+      "fair_odds": 6.866666666666667
+    },
+    "Average (65-70)": {
+      "score_range": [
+        65,
+        70
+      ],
+      "count": 209,
+      "wins": 22,
+      "win_rate": 0.10526315789473684,
+      "implied_probability": 0.10526315789473684,
+      "fair_odds": 8.5
+    },
+    "Below Average (60-65)": {
+      "score_range": [
+        60,
+        65
+      ],
+      "count": 202,
+      "wins": 20,
+      "win_rate": 0.09900990099009901,
+      "implied_probability": 0.09900990099009901,
+      "fair_odds": 9.1
+    },
+    "Poor (50-60)": {
+      "score_range": [
+        50,
+        60
+      ],
+      "count": 291,
+      "wins": 28,
+      "win_rate": 0.09621993127147767,
+      "implied_probability": 0.09621993127147767,
+      "fair_odds": 9.392857142857142
+    },
+    "Very Poor (0-50)": {
+      "score_range": [
+        0,
+        50
+      ],
+      "count": 353,
+      "wins": 18,
+      "win_rate": 0.05099150141643059,
+      "implied_probability": 0.05099150141643059,
+      "fair_odds": 18.61111111111111
+    }
+  },
+  "rank_calibration": {
+    "Top Pick": {
+      "rank_range": [
+        1,
+        1
+      ],
+      "count": 113,
+      "wins": 29,
+      "win_rate": 0.25663716814159293,
+      "implied_probability": 0.25663716814159293,
+      "fair_odds": 2.896551724137931
+    },
+    "2nd Choice": {
+      "rank_range": [
+        2,
+        2
+      ],
+      "count": 113,
+      "wins": 14,
+      "win_rate": 0.12389380530973451,
+      "implied_probability": 0.12389380530973451,
+      "fair_odds": 7.071428571428571
+    },
+    "3rd Choice": {
+      "rank_range": [
+        3,
+        3
+      ],
+      "count": 113,
+      "wins": 12,
+      "win_rate": 0.10619469026548672,
+      "implied_probability": 0.10619469026548672,
+      "fair_odds": 8.416666666666666
+    },
+    "4th-5th Choice": {
+      "rank_range": [
+        4,
+        5
+      ],
+      "count": 226,
+      "wins": 14,
+      "win_rate": 0.061946902654867256,
+      "implied_probability": 0.061946902654867256,
+      "fair_odds": 15.142857142857142
+    },
+    "6th-10th Choice": {
+      "rank_range": [
+        6,
+        10
+      ],
+      "count": 474,
+      "wins": 31,
+      "win_rate": 0.06540084388185655,
+      "implied_probability": 0.06540084388185655,
+      "fair_odds": 14.29032258064516
+    }
+  },
+  "total_predictions": 1197,
+  "total_races": 113,
+  "dataset": "October 2025 Keeneland"
+}

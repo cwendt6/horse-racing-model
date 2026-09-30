@@ -1,0 +1,84 @@
+{
+  "jockeys": [
+    {
+      "name": "Ada Kestrel",
+      "all_time_all_tracks": {
+        "starts": 337,
+        "wins": 35,
+        "win_percentage": 10.4,
+        "itm_percentage": 41.8,
+        "earnings": 2022000.0
+      }
+    },
+    {
+      "name": "Cyrus Pell",
+      "all_time_all_tracks": {
+        "starts": 510,
+        "wins": 52,
+        "win_percentage": 10.2,
+        "itm_percentage": 38.0,
+        "earnings": 3570000.0
+      }
+    },
+    {
+      "name": "Jude Farrow",
+      "all_time_all_tracks": {
+        "starts": 301,
+        "wins": 52,
+        "win_percentage": 17.3,
+        "itm_percentage": 33.2,
+        "earnings": 2709000.0
+      }
+    },
+    {
+      "name": "Lena Voss",
+      "all_time_all_tracks": {
+        "starts": 267,
+        "wins": 63,
+        "win_percentage": 23.6,
+        "itm_percentage": 33.7,
+        "earnings": 1335000.0
+      }
+    },
+    {
+      "name": "Nico Brandt",
+      "all_time_all_tracks": {
+        "starts": 289,
+        "wins": 31,
+        "win_percentage": 10.7,
+        "itm_percentage": 46.0,
+        "earnings": 1445000.0
+      }
+    },
+    {
+      "name": "Omar Reyes",
+      "all_time_all_tracks": {
+        "starts": 536,
+        "wins": 63,
+        "win_percentage": 11.8,
+        "itm_percentage": 39.6,
+        "earnings": 4288000.0
+      }
+    },
+    {
+      "name": "Rowan Hale",
+      "all_time_all_tracks": {
+        "starts": 569,
+        "wins": 132,
+        "win_percentage": 23.2,
+        "itm_percentage": 39.4,
+        "earnings": 3983000.0
+      }
+    },
+    {
+      "name": "Tess Ormond",
+      "all_time_all_tracks": {
+        "starts": 413,
+        "wins": 74,
+        "win_percentage": 17.9,
+        "itm_percentage": 44.6,
+        "earnings": 1239000.0
+      }
+    }
+  ]
+}
