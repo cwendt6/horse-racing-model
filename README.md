@@ -42,8 +42,16 @@ docs/             Backtest reports and parser documentation
 
 ## Running it
 
+Try it on the synthetic demo card (no data files needed):
+
 ```bash
 pip install -r requirements.txt
+python scripts/production/predict_from_pdf.py --sample
+```
+
+With your own past-performance PDFs:
+
+```bash
 ./run_prediction.sh "path/to/past_performances.pdf"      # all races
 ./run_prediction.sh "path/to/past_performances.pdf" 3    # one race
 ./run_validation.sh                                       # compare predictions to results
@@ -51,7 +59,9 @@ pip install -r requirements.txt
 
 ## Data
 
-Past-performance PDFs and Equibase result files are licensed data and are **not included** in this repo. Bring your own files to run the model.
+Past-performance PDFs and Equibase result files are licensed data and are **not included** in this repo. Bring your own files to run the model on real races.
+
+`sample_data/` holds a synthetic card (fictional track, horses, jockeys and trainers) plus matching jockey and trainer stats. `scripts/make_sample_card.py` regenerates it. `config/` holds the tuned weights and the probability calibration from the October 2025 backtest (aggregates only).
 
 ## Tech
 

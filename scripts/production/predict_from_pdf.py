@@ -1398,11 +1398,13 @@ def main():
 
     if len(sys.argv) < 2:
         print("Usage: python predict_from_pdf.py <pdf_file> [race_number]")
+        print("       python predict_from_pdf.py --sample   (synthetic demo card)")
         print("\nExample:")
         print("  python predict_from_pdf.py 'Keeneland October PPs/10-3-25-kee-ppspdf.pdf' 1")
         return
 
     pdf_path = sys.argv[1]
+    sample_mode = pdf_path == '--sample'
     race_number = int(sys.argv[2]) if len(sys.argv) > 2 else None
 
     print(f"\n{'='*80}")
@@ -1412,14 +1414,19 @@ def main():
 
     # Load statistics
     print(f"\nLoading statistics and analyzers...")
-    stats_loader = StatisticsLoader(
-        jockey_file='data/stats/jockey_statistics_comprehensive.json',
-        trainer_file='data/stats/trainer_statistics_comprehensive.json'
-    )
+    if sample_mode:
+        from src.data_loaders.sample_card import SAMPLE_STATS as stats_dir
+        jockey_file = os.path.join(stats_dir, 'jockey_statistics.json')
+        trainer_file = os.path.join(stats_dir, 'trainer_statistics.json')
+    else:
+        stats_dir = 'data/stats'
+        jockey_file = os.path.join(stats_dir, 'jockey_statistics_comprehensive.json')
+        trainer_file = os.path.join(stats_dir, 'trainer_statistics_comprehensive.json')
+    stats_loader = StatisticsLoader(jockey_file=jockey_file, trainer_file=trainer_file)
 
     fts_analyzer = FTSAnalyzer(
-        trainer_stats_file='data/stats/fts_trainer_statistics.json',
-        sire_stats_file='data/stats/fts_sire_statistics.json'
+        trainer_stats_file=os.path.join(stats_dir, 'fts_trainer_statistics.json'),
+        sire_stats_file=os.path.join(stats_dir, 'fts_sire_statistics.json')
     )
 
     pace_analyzer = PaceAnalyzer()
@@ -1471,9 +1478,14 @@ def main():
     print(f"✓ Enhanced jockey analyzer initialized")
     print(f"✓ Trainer specialization analyzer initialized")
 
-    # Parse PDF (using Hybrid Parser V3)
-    print(f"\nParsing PDF with Hybrid Parser V3: {pdf_path}")
-    races = parse_pdf_hybrid_v3(pdf_path)
+    if sample_mode:
+        from src.data_loaders.sample_card import SAMPLE_CARD, load_card
+        print(f"\nLoading synthetic sample card: {SAMPLE_CARD}")
+        races = load_card()
+    else:
+        # Parse PDF (using Hybrid Parser V3)
+        print(f"\nParsing PDF with Hybrid Parser V3: {pdf_path}")
+        races = parse_pdf_hybrid_v3(pdf_path)
 
     if not races:
         print(f"✗ No races found in PDF")
@@ -1522,7 +1534,7 @@ def main():
     print(f"{'='*80}\n")
 
     # Write output files
-    if all_results and not race_number:  # Only write files if processing all races
+    if all_results and not race_number and not sample_mode:  # Only write files for full PDF runs
         write_output_files(pdf_path, all_results)
         print(f"\n✓ Picks saved to: output/picks.txt")
         print(f"✓ Analysis saved to: output/race_analysis.txt")
